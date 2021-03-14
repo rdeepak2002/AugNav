@@ -18,7 +18,7 @@
     "server"
   ],
   "author": "Deepak Ramalingam",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rdeepak2002/FugaServer/issues"
   },

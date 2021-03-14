@@ -708,7 +708,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.deepdev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdev.augnav;
 				PRODUCT_NAME = AugNav;
 				SWIFT_OBJC_BRIDGING_HEADER = "MicrosoftCognitiveServicesSpeech-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
