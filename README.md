@@ -20,4 +20,4 @@ Open http://localhost:8080 in a new browser window.
 
 ## Running iOS App
 
-Navigate to the "AugNav_Mobile" folder on a terminal and run the "pod install" command. Next, open the "AugNav Mobile" folder as an Xcode project. Click the play button to run the app. The app is designed for an iPhone X device on iOS 13 and above.
+Navigate to the "AugNav_Mobile" folder on a terminal and run the "pod install" command. Next, open the "AugNav_Mobile" folder as an Xcode project. Click the play button to run the app. The app is designed for an iPhone X device on iOS 13 and above.
