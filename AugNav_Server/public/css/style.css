@@ -1,0 +1,137 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #EAEEF1;
+}
+
+#canvas-parent {
+  background-color: #EAEEF1;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.controls {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.loginLogo {
+  height: 70%;
+  width: 70%;
+}
+
+.fuga-brand-title {
+  font-family: Poppins-Medium;
+  font-size: 80px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 2rem;
+}
+
+.login-btn .signout-btn {
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  background: #9152f8;
+  background: -webkit-linear-gradient(bottom, #FE7763, #EF355A);
+  background: -o-linear-gradient(bottom, #FE7763, #EF355A);
+  background: -moz-linear-gradient(bottom, #FE7763, #EF355A);
+  background: linear-gradient(bottom, #FE7763, #EF355A);
+  position: relative;
+  z-index: 1;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.txt1 {
+  color: white !important;
+}
+
+.txt1:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.signout-btn {
+  margin-top: 10px;
+}
+
+.welcome-text {
+  font-family: Poppins-Medium;
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.card:active {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+  filter: brightness(70%);
+}
+
+.map-container {
+  margin-top: 30px;
+}
+
+.map-card-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.map-card-body {
+  margin-top: 10px;
+}
+
+#canvas-parent {
+  width: 100%
+}
+
+#canvas-parent:hover {
+  cursor: pointer
+}

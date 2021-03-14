@@ -1,0 +1,6 @@
+framework module Pods_FugaMobileTests {
+  umbrella header "Pods-FugaMobileTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

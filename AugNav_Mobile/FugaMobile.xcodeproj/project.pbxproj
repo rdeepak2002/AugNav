@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D09B3BF241F0FCB005FCFDB /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09B3BE241F0FCB005FCFDB /* InitViewController.swift */; };
+		6D3A496123EF4C7800FC4F21 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A496023EF4C7800FC4F21 /* SignUpViewController.swift */; };
+		6D3A496323F0D5E000FC4F21 /* LoadMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A496223F0D5E000FC4F21 /* LoadMapViewController.swift */; };
+		6D7299F523E8F89D0084767E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7299F423E8F89D0084767E /* AppDelegate.swift */; };
+		6D7299F723E8F89D0084767E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7299F623E8F89D0084767E /* art.scnassets */; };
+		6D7299F923E8F89D0084767E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7299F823E8F89D0084767E /* ViewController.swift */; };
+		6D7299FC23E8F89D0084767E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7299FA23E8F89D0084767E /* Main.storyboard */; };
+		6D7299FE23E8F89E0084767E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7299FD23E8F89E0084767E /* Assets.xcassets */; };
+		6D729A0123E8F89E0084767E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7299FF23E8F89E0084767E /* LaunchScreen.storyboard */; };
+		6D729A0C23E8F89E0084767E /* FugaMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A0B23E8F89E0084767E /* FugaMobileTests.swift */; };
+		6D729A1723E8F89E0084767E /* FugaMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A1623E8F89E0084767E /* FugaMobileUITests.swift */; };
+		6D729A2723E936E30084767E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A2623E936E30084767E /* HomeViewController.swift */; };
+		6D729A2B23E94D2D0084767E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D729A2A23E94D2D0084767E /* GoogleService-Info.plist */; };
+		6D729A2F23EE7D590084767E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A2E23EE7D590084767E /* LoginViewController.swift */; };
+		6D729A3723EE7F260084767E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A3623EE7F260084767E /* GradientView.swift */; };
+		6D729A3B23EE86700084767E /* phoenix.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D729A3A23EE86700084767E /* phoenix.png */; };
+		6D729A3D23EE8A870084767E /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A3C23EE8A870084767E /* TextField.swift */; };
+		6D950ECB240321BF00AB3264 /* noColorTransparentLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D950ECA240321BF00AB3264 /* noColorTransparentLogo.png */; };
+		6DB8F6AE2400E4660096ACA0 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB8F6AD2400E4660096ACA0 /* ViewControllerTableViewCell.swift */; };
+		6DE7345723FCE78000318C98 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7345623FCE78000318C98 /* Grid.swift */; };
+		6DEFFCFA2412CDBC00F71A25 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEFFCF92412CDBC00F71A25 /* MapViewController.swift */; };
+		6DF02D0F2415BBBC006152AB /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF02D0D2415BBBC006152AB /* CardViewController.xib */; };
+		6DF02D102415BBBC006152AB /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF02D0E2415BBBC006152AB /* CardViewController.swift */; };
+		B86E24BB3C8C2A1EE782B148 /* Pods_FugaMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2592083A759450DC5D4D37 /* Pods_FugaMobile.framework */; };
+		DC39BF8087C98FAC5A5BA888 /* Pods_FugaMobile_FugaMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4682470CF6AC089416C69DA0 /* Pods_FugaMobile_FugaMobileUITests.framework */; };
+		E013EBED6739B0D195469A3A /* Pods_FugaMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28A99CB67F03C9582FC3AD9 /* Pods_FugaMobileTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D729A0823E8F89E0084767E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7299E923E8F89D0084767E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7299F023E8F89D0084767E;
+			remoteInfo = FugaMobile;
+		};
+		6D729A1323E8F89E0084767E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7299E923E8F89D0084767E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7299F023E8F89D0084767E;
+			remoteInfo = FugaMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B576546E6E8242F74A4BA2E /* Pods-FugaMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FugaMobile.release.xcconfig"; path = "Target Support Files/Pods-FugaMobile/Pods-FugaMobile.release.xcconfig"; sourceTree = "<group>"; };
+		28215A59904F91F6767BD786 /* Pods-FugaMobile-FugaMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FugaMobile-FugaMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-FugaMobile-FugaMobileUITests/Pods-FugaMobile-FugaMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3492A97EB54F9B6505037C9B /* Pods-FugaMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FugaMobileTests.release.xcconfig"; path = "Target Support Files/Pods-FugaMobileTests/Pods-FugaMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		4682470CF6AC089416C69DA0 /* Pods_FugaMobile_FugaMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FugaMobile_FugaMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D09B3BE241F0FCB005FCFDB /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		6D3A194325FDAB70009CFEBC /* MicrosoftCognitiveServicesSpeech-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MicrosoftCognitiveServicesSpeech-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D3A496023EF4C7800FC4F21 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6D3A496223F0D5E000FC4F21 /* LoadMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMapViewController.swift; sourceTree = "<group>"; };
+		6D7299F123E8F89D0084767E /* AugNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7299F423E8F89D0084767E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D7299F623E8F89D0084767E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6D7299F823E8F89D0084767E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D7299FB23E8F89D0084767E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D7299FD23E8F89E0084767E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D729A0023E8F89E0084767E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D729A0223E8F89E0084767E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D729A0723E8F89E0084767E /* FugaMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FugaMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D729A0B23E8F89E0084767E /* FugaMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugaMobileTests.swift; sourceTree = "<group>"; };
+		6D729A0D23E8F89E0084767E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D729A1223E8F89E0084767E /* FugaMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FugaMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D729A1623E8F89E0084767E /* FugaMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugaMobileUITests.swift; sourceTree = "<group>"; };
+		6D729A1823E8F89E0084767E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D729A2623E936E30084767E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6D729A2A23E94D2D0084767E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "FugaMobile/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6D729A2E23EE7D590084767E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6D729A3623EE7F260084767E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		6D729A3A23EE86700084767E /* phoenix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phoenix.png; path = FugaMobile/phoenix.png; sourceTree = SOURCE_ROOT; };
+		6D729A3C23EE8A870084767E /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		6D950ECA240321BF00AB3264 /* noColorTransparentLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noColorTransparentLogo.png; path = FugaMobile/noColorTransparentLogo.png; sourceTree = SOURCE_ROOT; };
+		6DB8F6AD2400E4660096ACA0 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		6DE7345623FCE78000318C98 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		6DEFFCF92412CDBC00F71A25 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6DF02D0D2415BBBC006152AB /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		6DF02D0E2415BBBC006152AB /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		6FFB5F55E45EF2F2E8BE89CE /* Pods-FugaMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FugaMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-FugaMobileTests/Pods-FugaMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		727D8CD8886EDD926603B25F /* Pods-FugaMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FugaMobile.debug.xcconfig"; path = "Target Support Files/Pods-FugaMobile/Pods-FugaMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E58F598439FB095E85D8F1 /* Pods-FugaMobile-FugaMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FugaMobile-FugaMobileUITests.release.xcconfig"; path = "Target Support Files/Pods-FugaMobile-FugaMobileUITests/Pods-FugaMobile-FugaMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F28A99CB67F03C9582FC3AD9 /* Pods_FugaMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FugaMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2592083A759450DC5D4D37 /* Pods_FugaMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FugaMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7299EE23E8F89D0084767E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86E24BB3C8C2A1EE782B148 /* Pods_FugaMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729A0423E8F89E0084767E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E013EBED6739B0D195469A3A /* Pods_FugaMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729A0F23E8F89E0084767E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC39BF8087C98FAC5A5BA888 /* Pods_FugaMobile_FugaMobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23369B13039595424A261DD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC2592083A759450DC5D4D37 /* Pods_FugaMobile.framework */,
+				4682470CF6AC089416C69DA0 /* Pods_FugaMobile_FugaMobileUITests.framework */,
+				F28A99CB67F03C9582FC3AD9 /* Pods_FugaMobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D7299E823E8F89D0084767E = {
+			isa = PBXGroup;
+			children = (
+				6D3A194325FDAB70009CFEBC /* MicrosoftCognitiveServicesSpeech-Bridging-Header.h */,
+				6D7299F323E8F89D0084767E /* FugaMobile */,
+				6D729A0A23E8F89E0084767E /* FugaMobileTests */,
+				6D729A1523E8F89E0084767E /* FugaMobileUITests */,
+				6D7299F223E8F89D0084767E /* Products */,
+				BD5A84FFE560EA3EC5BA133D /* Pods */,
+				23369B13039595424A261DD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7299F223E8F89D0084767E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7299F123E8F89D0084767E /* AugNav.app */,
+				6D729A0723E8F89E0084767E /* FugaMobileTests.xctest */,
+				6D729A1223E8F89E0084767E /* FugaMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7299F323E8F89D0084767E /* FugaMobile */ = {
+			isa = PBXGroup;
+			children = (
+				6D950ECA240321BF00AB3264 /* noColorTransparentLogo.png */,
+				6D7299FD23E8F89E0084767E /* Assets.xcassets */,
+				6D7299F623E8F89D0084767E /* art.scnassets */,
+				6D729A3A23EE86700084767E /* phoenix.png */,
+				6D729A2A23E94D2D0084767E /* GoogleService-Info.plist */,
+				6D729A0223E8F89E0084767E /* Info.plist */,
+				6D7299FF23E8F89E0084767E /* LaunchScreen.storyboard */,
+				6D7299FA23E8F89D0084767E /* Main.storyboard */,
+				6DF02D0D2415BBBC006152AB /* CardViewController.xib */,
+				6D09B3BE241F0FCB005FCFDB /* InitViewController.swift */,
+				6DE7345623FCE78000318C98 /* Grid.swift */,
+				6D7299F423E8F89D0084767E /* AppDelegate.swift */,
+				6D7299F823E8F89D0084767E /* ViewController.swift */,
+				6D729A2623E936E30084767E /* HomeViewController.swift */,
+				6D729A2E23EE7D590084767E /* LoginViewController.swift */,
+				6D729A3623EE7F260084767E /* GradientView.swift */,
+				6D729A3C23EE8A870084767E /* TextField.swift */,
+				6D3A496023EF4C7800FC4F21 /* SignUpViewController.swift */,
+				6DEFFCF92412CDBC00F71A25 /* MapViewController.swift */,
+				6DB8F6AD2400E4660096ACA0 /* ViewControllerTableViewCell.swift */,
+				6D3A496223F0D5E000FC4F21 /* LoadMapViewController.swift */,
+				6DF02D0E2415BBBC006152AB /* CardViewController.swift */,
+			);
+			path = FugaMobile;
+			sourceTree = "<group>";
+		};
+		6D729A0A23E8F89E0084767E /* FugaMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D729A0B23E8F89E0084767E /* FugaMobileTests.swift */,
+				6D729A0D23E8F89E0084767E /* Info.plist */,
+			);
+			path = FugaMobileTests;
+			sourceTree = "<group>";
+		};
+		6D729A1523E8F89E0084767E /* FugaMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D729A1623E8F89E0084767E /* FugaMobileUITests.swift */,
+				6D729A1823E8F89E0084767E /* Info.plist */,
+			);
+			path = FugaMobileUITests;
+			sourceTree = "<group>";
+		};
+		BD5A84FFE560EA3EC5BA133D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				727D8CD8886EDD926603B25F /* Pods-FugaMobile.debug.xcconfig */,
+				1B576546E6E8242F74A4BA2E /* Pods-FugaMobile.release.xcconfig */,
+				28215A59904F91F6767BD786 /* Pods-FugaMobile-FugaMobileUITests.debug.xcconfig */,
+				E1E58F598439FB095E85D8F1 /* Pods-FugaMobile-FugaMobileUITests.release.xcconfig */,
+				6FFB5F55E45EF2F2E8BE89CE /* Pods-FugaMobileTests.debug.xcconfig */,
+				3492A97EB54F9B6505037C9B /* Pods-FugaMobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7299F023E8F89D0084767E /* FugaMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D729A1B23E8F89E0084767E /* Build configuration list for PBXNativeTarget "FugaMobile" */;
+			buildPhases = (
+				794E35947B998184C38C9DE3 /* [CP] Check Pods Manifest.lock */,
+				6D7299ED23E8F89D0084767E /* Sources */,
+				6D7299EE23E8F89D0084767E /* Frameworks */,
+				6D7299EF23E8F89D0084767E /* Resources */,
+				457CEE297023A60C1215ABBF /* [CP] Embed Pods Frameworks */,
+				34D472979ECCF0D135A984E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FugaMobile;
+			productName = FugaMobile;
+			productReference = 6D7299F123E8F89D0084767E /* AugNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D729A0623E8F89E0084767E /* FugaMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D729A1E23E8F89E0084767E /* Build configuration list for PBXNativeTarget "FugaMobileTests" */;
+			buildPhases = (
+				C0FDE0DAD072013F364A76FE /* [CP] Check Pods Manifest.lock */,
+				6D729A0323E8F89E0084767E /* Sources */,
+				6D729A0423E8F89E0084767E /* Frameworks */,
+				6D729A0523E8F89E0084767E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D729A0923E8F89E0084767E /* PBXTargetDependency */,
+			);
+			name = FugaMobileTests;
+			productName = FugaMobileTests;
+			productReference = 6D729A0723E8F89E0084767E /* FugaMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D729A1123E8F89E0084767E /* FugaMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D729A2123E8F89E0084767E /* Build configuration list for PBXNativeTarget "FugaMobileUITests" */;
+			buildPhases = (
+				C6B0D32A277436E8ADCCBEB9 /* [CP] Check Pods Manifest.lock */,
+				6D729A0E23E8F89E0084767E /* Sources */,
+				6D729A0F23E8F89E0084767E /* Frameworks */,
+				6D729A1023E8F89E0084767E /* Resources */,
+				7B629424632F70DC114F5054 /* [CP] Embed Pods Frameworks */,
+				A84DC37AC711A2D32C090679 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D729A1423E8F89E0084767E /* PBXTargetDependency */,
+			);
+			name = FugaMobileUITests;
+			productName = FugaMobileUITests;
+			productReference = 6D729A1223E8F89E0084767E /* FugaMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7299E923E8F89D0084767E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Deepak Ramalingam";
+				TargetAttributes = {
+					6D7299F023E8F89D0084767E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					6D729A0623E8F89E0084767E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 6D7299F023E8F89D0084767E;
+					};
+					6D729A1123E8F89E0084767E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 6D7299F023E8F89D0084767E;
+					};
+				};
+			};
+			buildConfigurationList = 6D7299EC23E8F89D0084767E /* Build configuration list for PBXProject "FugaMobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7299E823E8F89D0084767E;
+			productRefGroup = 6D7299F223E8F89D0084767E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7299F023E8F89D0084767E /* FugaMobile */,
+				6D729A0623E8F89E0084767E /* FugaMobileTests */,
+				6D729A1123E8F89E0084767E /* FugaMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7299EF23E8F89D0084767E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF02D0F2415BBBC006152AB /* CardViewController.xib in Resources */,
+				6D7299F723E8F89D0084767E /* art.scnassets in Resources */,
+				6D729A0123E8F89E0084767E /* LaunchScreen.storyboard in Resources */,
+				6D729A2B23E94D2D0084767E /* GoogleService-Info.plist in Resources */,
+				6D7299FE23E8F89E0084767E /* Assets.xcassets in Resources */,
+				6D7299FC23E8F89D0084767E /* Main.storyboard in Resources */,
+				6D950ECB240321BF00AB3264 /* noColorTransparentLogo.png in Resources */,
+				6D729A3B23EE86700084767E /* phoenix.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729A0523E8F89E0084767E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729A1023E8F89E0084767E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D472979ECCF0D135A984E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FugaMobile/Pods-FugaMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FugaMobile/Pods-FugaMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FugaMobile/Pods-FugaMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457CEE297023A60C1215ABBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FugaMobile/Pods-FugaMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FugaMobile/Pods-FugaMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FugaMobile/Pods-FugaMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		794E35947B998184C38C9DE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FugaMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B629424632F70DC114F5054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FugaMobile-FugaMobileUITests/Pods-FugaMobile-FugaMobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FugaMobile-FugaMobileUITests/Pods-FugaMobile-FugaMobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FugaMobile-FugaMobileUITests/Pods-FugaMobile-FugaMobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A84DC37AC711A2D32C090679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FugaMobile-FugaMobileUITests/Pods-FugaMobile-FugaMobileUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FugaMobile-FugaMobileUITests/Pods-FugaMobile-FugaMobileUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FugaMobile-FugaMobileUITests/Pods-FugaMobile-FugaMobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0FDE0DAD072013F364A76FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FugaMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B0D32A277436E8ADCCBEB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FugaMobile-FugaMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7299ED23E8F89D0084767E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEFFCFA2412CDBC00F71A25 /* MapViewController.swift in Sources */,
+				6D729A2F23EE7D590084767E /* LoginViewController.swift in Sources */,
+				6D3A496123EF4C7800FC4F21 /* SignUpViewController.swift in Sources */,
+				6DB8F6AE2400E4660096ACA0 /* ViewControllerTableViewCell.swift in Sources */,
+				6D7299F923E8F89D0084767E /* ViewController.swift in Sources */,
+				6D09B3BF241F0FCB005FCFDB /* InitViewController.swift in Sources */,
+				6D3A496323F0D5E000FC4F21 /* LoadMapViewController.swift in Sources */,
+				6D729A3723EE7F260084767E /* GradientView.swift in Sources */,
+				6D729A3D23EE8A870084767E /* TextField.swift in Sources */,
+				6DF02D102415BBBC006152AB /* CardViewController.swift in Sources */,
+				6D7299F523E8F89D0084767E /* AppDelegate.swift in Sources */,
+				6D729A2723E936E30084767E /* HomeViewController.swift in Sources */,
+				6DE7345723FCE78000318C98 /* Grid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729A0323E8F89E0084767E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D729A0C23E8F89E0084767E /* FugaMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729A0E23E8F89E0084767E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D729A1723E8F89E0084767E /* FugaMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D729A0923E8F89E0084767E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D7299F023E8F89D0084767E /* FugaMobile */;
+			targetProxy = 6D729A0823E8F89E0084767E /* PBXContainerItemProxy */;
+		};
+		6D729A1423E8F89E0084767E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D7299F023E8F89D0084767E /* FugaMobile */;
+			targetProxy = 6D729A1323E8F89E0084767E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D7299FA23E8F89D0084767E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7299FB23E8F89D0084767E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D7299FF23E8F89E0084767E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D729A0023E8F89E0084767E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D729A1923E8F89E0084767E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D729A1A23E8F89E0084767E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D729A1C23E8F89E0084767E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727D8CD8886EDD926603B25F /* Pods-FugaMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B74278Y69N;
+				INFOPLIST_FILE = FugaMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdev;
+				PRODUCT_NAME = AugNav;
+				SWIFT_OBJC_BRIDGING_HEADER = "MicrosoftCognitiveServicesSpeech-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D729A1D23E8F89E0084767E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B576546E6E8242F74A4BA2E /* Pods-FugaMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3LP37M7J6;
+				INFOPLIST_FILE = FugaMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdev;
+				PRODUCT_NAME = AugNav;
+				SWIFT_OBJC_BRIDGING_HEADER = "MicrosoftCognitiveServicesSpeech-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D729A1F23E8F89E0084767E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FFB5F55E45EF2F2E8BE89CE /* Pods-FugaMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3LP37M7J6;
+				INFOPLIST_FILE = FugaMobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdev.FugaMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FugaMobile.app/FugaMobile";
+			};
+			name = Debug;
+		};
+		6D729A2023E8F89E0084767E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3492A97EB54F9B6505037C9B /* Pods-FugaMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3LP37M7J6;
+				INFOPLIST_FILE = FugaMobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdev.FugaMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FugaMobile.app/FugaMobile";
+			};
+			name = Release;
+		};
+		6D729A2223E8F89E0084767E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28215A59904F91F6767BD786 /* Pods-FugaMobile-FugaMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3LP37M7J6;
+				INFOPLIST_FILE = FugaMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdev.FugaMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FugaMobile;
+			};
+			name = Debug;
+		};
+		6D729A2323E8F89E0084767E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E58F598439FB095E85D8F1 /* Pods-FugaMobile-FugaMobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3LP37M7J6;
+				INFOPLIST_FILE = FugaMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdev.FugaMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FugaMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7299EC23E8F89D0084767E /* Build configuration list for PBXProject "FugaMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D729A1923E8F89E0084767E /* Debug */,
+				6D729A1A23E8F89E0084767E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D729A1B23E8F89E0084767E /* Build configuration list for PBXNativeTarget "FugaMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D729A1C23E8F89E0084767E /* Debug */,
+				6D729A1D23E8F89E0084767E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D729A1E23E8F89E0084767E /* Build configuration list for PBXNativeTarget "FugaMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D729A1F23E8F89E0084767E /* Debug */,
+				6D729A2023E8F89E0084767E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D729A2123E8F89E0084767E /* Build configuration list for PBXNativeTarget "FugaMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D729A2223E8F89E0084767E /* Debug */,
+				6D729A2323E8F89E0084767E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7299E923E8F89D0084767E /* Project object */;
+}

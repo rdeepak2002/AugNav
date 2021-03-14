@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "fugaserver",
+  "description": "Server and WebApp for the Fuga service.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdeepak2002/FugaServer.git"
+  },
+  "keywords": [
+    "fuga",
+    "service",
+    "webapp",
+    "iphone",
+    "server"
+  ],
+  "author": "Deepak Ramalingam",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rdeepak2002/FugaServer/issues"
+  },
+  "homepage": "https://github.com/rdeepak2002/FugaServer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "nocache": "^2.1.0"
+  }
+}
