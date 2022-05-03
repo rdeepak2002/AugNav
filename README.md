@@ -1,5 +1,9 @@
 # AugNav
 
+## About
+
+https://rdeepak2002.github.io/#/project?id=augnav
+
 ## Requirements
 
 Node, NPM, and Xcode must be installed on the machine.
